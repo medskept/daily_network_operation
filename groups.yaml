@@ -1,0 +1,4 @@
+---
+cisco_ios:
+    platform: cisco_ios
+    port: 22

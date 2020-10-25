@@ -1,0 +1,41 @@
+---
+hostFR01782:
+ hostname: 10.235.32.5
+ groups:
+  - cisco_ios
+hostSec_FR01782:
+ hostname: 10.235.32.6
+ groups:
+  - cisco_ios
+hostFR01911:
+ hostname: 10.234.88.252
+ groups:
+  - cisco_ios
+hostSec_FR01911:
+ hostname: 10.234.88.252
+ groups:
+  - cisco_ios
+hostFR01813:
+ hostname: 10.200.40.7
+ groups:
+  - cisco_ios
+hostFR01890:
+ hostname: 10.234.4.252
+ groups:
+  - cisco_ios
+hostSec_FR01890:
+ hostname: 10.234.4.253
+ groups:
+  - cisco_ios
+hostFR00610:
+ hostname: 10.161.252.188
+ groups:
+  - cisco_ios
+hostSec_FR00610:
+ hostname: 10.161.252.189
+ groups:
+  - cisco_ios
+hostFR00721:
+ hostname: 10.200.15.7
+ groups:
+  - cisco_ios
