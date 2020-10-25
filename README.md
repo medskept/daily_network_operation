@@ -10,9 +10,9 @@ First, fill the folowing files (You already find an example in the repo) :
 
 Then, run:
 
----
+```
 nor_main.py
----
+```
 
 Finaly, find output in input-output/output.csv file.
 logs will be stored in /log folder (for advanced logs, please check nornir.log)
