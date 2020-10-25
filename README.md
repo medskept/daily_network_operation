@@ -3,18 +3,14 @@
 This code is based on Norni framework, it helps you pull data from your network devices (Cisco). 
 
 
-## HOW-TO set up
+## HOW-TO run
 
-Kubernetes version : v1.16.x<br />
-Sonarqube version : v8.2-community<br />
-Artifactory version : v7.7.3 OSS<br />
-Cert-manager version : v0.16.1<br />
-Nginx version : v0.29.0<br />
+First, fill the folowing files (You already find an example in the repo) :
++ input-output/input.csv ( input data for your infrastructure devices)
 
-### Step 1 - Deploy the NGINX Ingress Controller
+Then, run nor_main program.
 
-Create a static ip
+Finaly, find output in input-output/output.csv file.
+logs will be stored in /log folder (for advanced logs, please check nornir.log)
 
-```
-az network public-ip create --resource-group MC_Almond_support_francecentral --name supportStaticIP --sku Standard --allocation-method static --query publicIp.ipAddress -o tsv
-```
+
